@@ -62,15 +62,23 @@ individual modules, .py files, that hold your functions to acquire and prepare y
 
 #### Initial Hypotheses:
 
-> - **Hypothesis 1 -** I rejected the Null Hypothesis; there is a difference.
+> - **Hypothesis 1 -** I rejected the Null Hypothesis; is independent
 > - alpha = .05
-> - $H_0$: Sepal length is the same in virginica and versicolor. $\mu_{virginica} == \mu_{versicolor}$.  
-> - $H_a$: Sepal length significantly different in virginica and versicolor. $\mu_{virginica} != \mu_{versicolor}$. 
+> - Hypothesis Null : autopay method is independent of churn.
+> - Hypothesis Alternative : "autopay method is not independent of churn".
 
-> - **Hypothesis 2 -** I rejected the Null Hypothesis; there is a difference.
+> - **Hypothesis 2 -** I rejected the Null Hypothesis; is independent.
 > - alpha = .05
-> - $H_0$: Sepal width is the same in virginica and versicolor. $\mu_{virginica} == \mu_{versicolor}$.  
-> - $H_a$: Sepal width significantly different in virginica and versicolor. $\mu_{virginica} != \mu_{versicolor}$. 
+> - Hypothesis Null : internet service type fiber optic is independent of churn.
+> - Hypothesis Alternative : "internet service type fiber optic is not independent of churn".
+
+
+> - **Hypothesis 3 -** I rejected the Null Hypothesis; no difference.
+> - alpha = .05
+> - Hypothesis Null : there is no difference between tenure_months and churn.
+> - Hypothesis Alternative : there is a difference between tenure_months and churn.
+
+
 
 
 
